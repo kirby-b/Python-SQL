@@ -9,8 +9,7 @@ def main():
     )
     dbcursor = db.cursor()
     dbcursor.execute("CREATE DATABASE mydatabase")
-    dbcursor.execute("CREATE TABLE memes (name VARCHAR(255), score VARCHAR(255))")
-
+    
 
 if __name__ == '__main__':
     main()
