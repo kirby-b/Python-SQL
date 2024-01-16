@@ -23,6 +23,8 @@ def main():
 
     db.commit()
 
+    dbcursor.execute("SELECT * FROM memes")
+
 
 if __name__ == '__main__':
     main()
