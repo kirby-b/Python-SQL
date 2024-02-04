@@ -1,4 +1,4 @@
- import mysql.connector
+import mysql.connector
 
 
 def main():
@@ -23,9 +23,9 @@ def main():
 
     dbcursor.execute("SELECT * FROM memes")
         
-    myresult = mycursor.fetchall()
+    my_result = mycursor.fetchall()
 
-    for x in myresult:
+    for x in my_result:
         print(x)
 
 if __name__ == '__main__':
