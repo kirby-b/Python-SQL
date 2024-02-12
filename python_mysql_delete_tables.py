@@ -6,7 +6,7 @@ def main():
     password="yourpassword",
     database="thedatabase"
     )
-
+    #Creates a connection to the DB
     mycursor = mydb.cursor()
 
     sql = "DROP TABLE customers"
