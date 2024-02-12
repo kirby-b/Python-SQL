@@ -7,6 +7,7 @@ def main():
         user="yourusername",
         password="yourpassword"
     )
+    #Creates a connection to the DB
     dbcursor = db.cursor()
     dbcursor.execute("CREATE DATABASE mydatabase")
     
